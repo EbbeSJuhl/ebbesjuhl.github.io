@@ -1,0 +1,154 @@
+html {
+    background-color: white;
+}
+
+body {
+    font-family: 'Helvetica', 'Roboto', sans-serif;
+    margin: 1cm;
+    padding: 0cm;
+    line-height: 1.6;
+    background-color: rgb(230, 228, 228);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(
+        135deg,
+        #17023f,
+        #144975,
+        #287285
+    );
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+}
+
+nav {
+    background: linear-gradient(
+        135deg,
+        #171718,
+        #19191a,
+        #000000
+    );
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.skills, .experience, .education {
+    margin-bottom: 30px;
+}
+
+ul.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+ul.skills-list li {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+a.contact-link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+li.a {
+    color: white;
+}
+
+.majorlist {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+.majorprojectpictures {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+#profilepic {
+    width: 180px;
+    height: 250px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}

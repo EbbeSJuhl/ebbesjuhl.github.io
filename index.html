@@ -1,41 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Ebbe Sjuhl</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-    }
-    .card {
-      text-align: center;
-      padding: 2.5rem 3rem;
-      border-radius: 12px;
-      background: #020617;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-    }
-    h1 {
-      margin: 0 0 0.5rem;
-      font-size: 2rem;
-    }
-    p {
-      margin: 0;
-      opacity: 0.8;
-    }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <h1>It works 🎉</h1>
-    <p>GitHub Pages is live for ebbesjuhl.github.io</p>
-  </div>
-</body>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Ebbe Stolberg Juhl">
+      <title>Ebbe Stolberg Juhl - Portfolio</title>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./simplestyle.css">
+  </head>
+  <body>
+
+    <header>
+        <h1>Ebbe Stolberg Juhl</h1>
+        <p>Bachelor Student</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#Projects">Academic Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+          <img src="./resources/pictures/example.jpg" alt="profilepic" id="profilepic">
+          <p>
+              Hi, I'm Ebbe. I'm studying for my bachelor degree in IT Product Development at Aarhus University. 
+              More specifically, I'm am currently writing my bachelor thesis. I am interested in many aspects of 
+              IT and Human Computer Interaction, but prefer backend coding and small to 
+              medium sized hardware development. I'm also interested in cyber security and cryptology.
+              I plan to continue my studies and get a Masters degree in eiter IT Product Development 
+              or Computer Science when im finished with my current degree. 
+          </p>
+      </div>
+    </section>
+
+    
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+          <a href="https://bachelor.au.dk/itproduktudvikling?gad_source=1&gad_campaignid=12086488748&gclid=Cj0KCQiAuvTJBhCwARIsAL6DemgE62qWZTIjsXPXyfAIdVh3J2JbcibWi36XwdNe8WE2oy3Bv4aXTYAaAsbdEALw_wcB">
+            <h3>Bachelor in IT Product Development</h3>
+          </a>
+          <p><em>Aarhus University, August 2024 – Present</em></p>
+        </div>
+        <div class="education">
+            <h3>Other Notable Courses</h3>
+            <p>
+              <a href="https://kursuskatalog.au.dk/da/course/134838/Machine-Learning" target="_blank" rel="noopener noreferrer">Machine Learning</a>
+            </p>
+            <p>
+              <a href="https://kursuskatalog.au.dk/da/course/130508/Algoritmer-og-datastrukturer" target="_blank" rel="noopener noreferrer">Algorithems and Datastructures</a>
+            </p>
+            <p>
+              <a href="https://kursuskatalog.au.dk/da/course/134841/Oversaettelse" target="_blank" rel="noopener noreferrer">Compilers</a>
+            </p>
+            <p>
+              <a href="https://kursuskatalog.au.dk/da/course/138440/Databaser" target="_blank" rel="noopener noreferrer">Databases</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2>Work</h2>
+        <div class="work">
+            <h3>Teachers Assistant - Aarhus University</h3>
+            <a href="https://kursuskatalog.au.dk/da/course/134828/Distribuerede-Systemer-og-Sikkerhed" target="_blank" rel="noopener noreferrer">
+              Distributed Systems and Security</a><br>
+              Fall 2025
+        </div>
+        <div class="work">
+            <h3>Substitude Teacher - Himmelev Skole & Trekroner Skole, Roskilde</h3>
+            Spring 2021
+        </div>
+        <div class="work">
+            <h3>Private Music Teacher, Roskilde</h3> 
+            Spring 2019
+        </div>
+    </section>
+
+    <section id="Projects">
+
+      <h2>Academic Projects</h2>
+      <ul class="majorlist">
+
+        <li>
+          <h3>3D Printing with Silverinc Nanoparticles (Ongoing)</h3>
+          <div class="about-content">
+            <img src="./resources/pictures/example.jpg" alt="Silverinc" class="majorprojectpictures">
+            <p>
+              This is my bachelor thesis. The aim of the project is to combine traditional 3D printing with conductive inc to allow
+              for 3D printing of PCBs and simple electronic devices with minimal user input. Im doing the project together with 
+              Elias Steel Ozol and Gustav Magnus Thomsen under the supervision of 
+              <a href="https://interactivematterlab.org/profile.html">Michael Wessely</a>.
+              <br><br>
+              <a href="./pages/silverinc/silverinc.html">Read More >>></a>
+            </p>
+          </div>
+
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact and Useful Links</h2>
+        <p>Email: <a class="contact-link" href="mailto:ebbe.juhl@hotmail.dk">ebbe.juhl@hotmail.dk</a></p>
+        <p>Phone: <a class="contact-link" href="tel:+4540244094">+4540244094</a></p>
+        <p>LinkedIn: <a class="contact-link" href="https://www.linkedin.com/in/ebbe-juhl-851985214/" target="_blank">linkedin.com/in/ebbe-juhl-851985214</a></p>
+        <p>GitHub: <a class="contact-link" href="https://github.com/EbbeSJuhl" target="_blank">github.com/EbbeSJuhl</a></p>
+    </section>
+
+    <footer>
+        &copy; <span id="year"></span> Ebbe Stolberg Juhl. All Rights Reserved.
+    </footer>
+
+    <script src="general.js"></script>
+  </body>
 </html>
