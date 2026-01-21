@@ -12,3 +12,7 @@
     border-radius: 8px;
 }
 
+.wip {
+    font-style: italic;
+    color: grey;
+}
